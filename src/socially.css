@@ -13,12 +13,13 @@ body {
   padding: 0;
   font-weight: 200;
   -webkit-font-smoothing: antialiased;
-	-moz-osx-font-smoothing: grayscale;
+  -moz-osx-font-smoothing: grayscale;
 }
 
-h1, h2, h3, h4 {
+h3, h4 {
   margin: 10px 0 15px;
 }
+
 
 p, ul {
   margin: 10px 0;
@@ -57,7 +58,7 @@ a:active {
  * HEADER
  */
 
-.header {
+ .header {
   align-items: center;
   background-color: #EFEFEF;
   background-image: url('bg.jpg');
@@ -108,14 +109,14 @@ a:active {
 .header h2 {
   font-size: 2.1rem;
   font-weight: 100;
-  margin: 5px 0;
+  margin: 10px 0;
 }
 
 /*
  * SKILLS
  */
 
-.skills {
+ .skills {
   background: #e91e63;
   color: white;
 }
@@ -135,6 +136,6 @@ a:active {
 .w3-padding-16{padding-top:16px!important;padding-bottom:16px!important
   .w3-left{float:left!important}
   .w3-pale-red,.w3-hover-pale-red:hover{color:#000!important;background-color:#ffdddd!important}
-.w3-pale-green,.w3-hover-pale-green:hover{color:#000!important;background-color:#ddffdd!important}
-.w3-pale-yellow{color:#000!important;background-color:#ffffcc!important}
-.w3-pale-blue,.w3-hover-pale-blue:hover{color:#000!important;background-color:#ddffff!important}
+  .w3-pale-green,.w3-hover-pale-green:hover{color:#000!important;background-color:#ddffdd!important}
+  .w3-pale-yellow{color:#000!important;background-color:#ffffcc!important}
+  .w3-pale-blue,.w3-hover-pale-blue:hover{color:#000!important;background-color:#ddffff!important}
