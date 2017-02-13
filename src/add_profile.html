@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html >
+<head>
+	<meta charset="UTF-8">
+	<title>Socially: Add Profile</title>
+	<link rel="stylesheet" href="add_profile.css">
+	<link rel="stylesheet" href="header.css">
+	<link rel="stylesheet" href="login_modal.css">
+
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+	<link rel="stylesheet" href="C:\Users\danie\Downloads\font-awesome-4.7.0\font-awesome-4.7.0\css\font-awesome.min.css">
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0;">
+</head>
+<body>
+	<div class="header">
+		<h1>Socially</h1>
+		<p>Add Social Media Profiles</p>
+		<button class="w3-btn w3-teal w3-hover-light-grey" 
+		onclick="window.location.href='socially.html'">Home</button>
+	</div>
+	<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+		<div class="modal-dialog" role="document">
+			<div class="loginmodal-container">
+				<h1>Login to Your Account</h1><br>
+				<form>
+					<input type="text" name="user" placeholder="Username">
+					<input type="password" name="pass" placeholder="Password">
+					<input type="submit" name="login" class="login loginmodal-submit" value="Login">
+				</form>
+				<div class="login-help">
+					<a href="#">Register</a> - <a href="#">Forgot Password</a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div>
+		<div class="modal fade" id="instagram" tabindex="-1" role="dialog" aria-labelledby="instagramLabel">
+			<div class="modal-dialog" role="document">
+				<div class="loginmodal-container">
+				<h1>Login to Your Account</h1><br>
+				<form>
+					<input type="text" name="user" placeholder="Username">
+					<input type="password" name="pass" placeholder="Password">
+					<input type="submit" name="login" class="login loginmodal-submit" value="Login">
+				</form>
+				<div class="login-help">
+					<a href="#">Register</a> - <a href="#">Forgot Password</a>
+				</div>
+			</div>
+			</div>
+		</div>
+		<div>
+			<ul class="list-group">
+				<button type="button" class="btn btn-primary btn-lg facebook" data-toggle="modal" data-target="#myModal"> <li class="list-group-item facebook"><i class="fa fa-facebook-official fa-2x" aria-hidden="true"></i></li>
+				</button>
+				<button type="button" class="btn btn-primary btn-lg instagram" data-toggle="modal" data-target="#instagram"><li class="list-group-item instagram"><i class="fa fa-instagram fa-2x" aria-hidden="true"></i></li>
+				</button>
+				<li class="list-group-item twitter"><i class="fa fa-twitter-square fa-2x" aria-hidden="true"></i></li>
+				<li class="list-group-item google"><i class="fa fa-google-plus fa-2x" aria-hidden="true"></i></li>
+			</ul>
+		</div>
+		<script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+		<script src="add_profile.js"></script>
+	</body>
+	</html>
