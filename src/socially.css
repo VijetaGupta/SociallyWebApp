@@ -60,7 +60,7 @@ a:active {
 .header {
   align-items: center;
   background-color: #EFEFEF;
-  background-image: url('bg.jpg');
+  background-image: url('https://akshaykher.files.wordpress.com/2015/08/analytics.jpg');
   background-position: cover;
   background-repeat: no-repeat;
   background-size: 100% auto;
@@ -98,6 +98,7 @@ a:active {
   position: relative;
   z-index: 2;
   text-shadow: 1px 1px 10px black;
+
 }
 
 .header h1 {
@@ -138,8 +139,3 @@ a:active {
 .w3-pale-green,.w3-hover-pale-green:hover{color:#000!important;background-color:#ddffdd!important}
 .w3-pale-yellow{color:#000!important;background-color:#ffffcc!important}
 .w3-pale-blue,.w3-hover-pale-blue:hover{color:#000!important;background-color:#ddffff!important}
-.w3-right{float:right!important}
-.fa{display:inline-block;font:normal normal normal 14px/1 FontAwesome;font-size:inherit;text-rendering:auto;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}
-.fa-comment:before{content:"\f075"}
-.w3-xxxlarge{font-size:48px!important}
-.w3clear:after{content:"";display:table;clear:both}
