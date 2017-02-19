@@ -60,7 +60,7 @@ a:active {
 .header {
   align-items: center;
   background-color: #EFEFEF;
-  background-image: url('bg.jpg');
+  background-image: url('https://akshaykher.files.wordpress.com/2015/08/analytics.jpg');
   background-position: cover;
   background-repeat: no-repeat;
   background-size: 100% auto;
@@ -98,6 +98,7 @@ a:active {
   position: relative;
   z-index: 2;
   text-shadow: 1px 1px 10px black;
+
 }
 
 .header h1 {
