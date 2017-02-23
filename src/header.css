@@ -1,0 +1,13 @@
+.header{
+  align-items: center;
+  background-color: #262626;
+  color: #FFFFFF;
+  min-height: 250px;
+  padding: 25px 15px;
+  text-align: center;
+  font-family: 'Kadwa', serif;
+}
+
+.header h2 {
+  font-size:  1.5em;
+}

@@ -1,0 +1,36 @@
+.profile{
+	width: 25%;
+}
+.facebook{
+	background: #3B5998;
+	padding: 0px;
+	margin: 0px;
+	color: white;
+}
+
+.instagram{
+	background: linear-gradient(-90deg,  #8a3ab9, #4c68d7, #cd486b, #fbad50, #fccc63,#bc2a8d,#e95950);
+	padding: 0px;
+	margin: 0px;
+	color: white;
+}
+
+.twitter{
+	background: #4099FF;
+	color: white;
+	padding: 0px;
+	margin: 0px;
+}
+
+.googleplus{
+	background: #d34836;
+	color: white;
+	padding: 0px;
+	margin: 0px;
+}
+
+.content-wrapper {
+  line-height: 1.4;
+  padding: 30px 25px;
+  font-family: 'Kadwa', serif;
+}
