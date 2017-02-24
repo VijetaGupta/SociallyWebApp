@@ -1,5 +1,6 @@
 .profile{
-	width: 25%;
+	margin: 0px 5px;
+	width: 10%;
 }
 .facebook{
 	background: #3B5998;
@@ -29,8 +30,4 @@
 	margin: 0px;
 }
 
-.content-wrapper {
-  line-height: 1.4;
-  padding: 30px 25px;
-  font-family: 'Kadwa', serif;
-}
+

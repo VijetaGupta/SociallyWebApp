@@ -1,0 +1,44 @@
+.option {
+	margin: 5px 5px 5px 5px;
+	background-color: teal;
+	color: white;
+}
+
+.content-body {
+	padding: 20px 25px;
+}
+
+p {
+	padding: 20px 25px;
+	line-height: 1.4;
+	font-family: 'Kadwa', serif;
+}
+
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+.profile:active {
+  transform: translateY(4px);
+}
