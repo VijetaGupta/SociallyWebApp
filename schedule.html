@@ -1,46 +1,58 @@
 <!DOCTYPE html>
-<html >
+<html lang="en">
 <head>
-	<meta charset="UTF-8">
-	<title>Socially: Publish Posts</title>
-	<link rel="stylesheet" href="add_profile.css">
-  <link rel="stylesheet" href="publish_posts.css">
-  <link rel="stylesheet" href="header.css">
-  <link rel="stylesheet" href="login_modal.css">
-  <link href="https://fonts.googleapis.com/css?family=Kadwa" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0;">
+  <link rel="stylesheet" href="socially.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="https://www.w3schools.com/lib/w3.css">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
-  <script src="https://use.fontawesome.com/955d121151.js"></script>
+<link rel="stylesheet" href="css/style.css">
+<link href="https://fonts.googleapis.com/css?family=Kadwa" rel="stylesheet">
+<script src="https://use.fontawesome.com/955d121151.js"></script>
   <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0;">
+  <link rel="stylesheet" href="add_profile.css">
+  <link rel="stylesheet" href="publish_posts.css">
+  <link rel="stylesheet" href="header.css">
+  <link rel="stylesheet" href="login_modal.css">
+  <title>Socially</title>
 </head>
 <body>
- <div class="header">
+
+<div class="header">
   <div class="content-wrapper">
     <h1> Socially </h1>
     <h2> Analyze The Performance Of Your Brand On Social Media </h2>
-    <h3>
-      <button class="w3-button w3-teal w3-medium" onclick="window.location.href='socially.html'">Home</button>   
-      <button class="w3-button w3-teal w3-medium" onclick="window.location.href='about_us.html'">About Us</button>     
-      <button class="w3-button w3-teal w3-medium" onclick="window.location.href='add_profile.html'">Add Profile</button>
-      <button class="w3-button w3-teal w3-medium" onclick="window.location.href='View_Reports.html'">View Reports</button>
-      <button class="w3-button w3-teal w3-medium" onclick="window.location.href='publish_posts.html'">Publish Posts</button>
-      <button class="w3-button w3-teal w3-medium">View Feeds</button>
-    </h3>
-  </div>
+    <button class="w3-btn w3-teal w3-hover-light-grey"onclick="window.location.href='AboutUs.html'">About Us</button>
+    <button class="w3-btn w3-teal w3-hover-light-grey" onclick="window.location.href='index_mm.html'">Home</button>
+    <button class="w3-btn w3-teal w3-hover-light-grey" onclick="window.location.href='Add_Profile_mm.html'">Add Profile</button>
+    <button class="w3-btn w3-teal w3-hover-light-grey"  onclick="window.location.href='View_Reports.html'">View Reports</button>
+    <button class="w3-btn w3-teal w3-hover-light-grey" onclick="window.location.href='scheduled.html'">Publish Posts</button>
+    <button class="w3-btn w3-teal w3-hover-light-grey">View Feeds</button>
 </div>
-<div class="content-wrapper">
-  <h3>Publish and Schedule Posts</h3>
-  <p>Publish posts to your social media profiles, or schedule a post to be uploaded at a certain time!</p>
+</div>
+
+<div class="tagline">
+ <div class="content-wrapper">
+
+
+    <h5>Publish and Schedule Posts</h5>
+    <p>Publish posts to your social media profiles, or schedule a post to be uploaded at a certain time!</p>
   <button type="button" class="btn profile facebook"><i class="fa fa-facebook-official fa-2x" aria-hidden="true"></i> </button>
   <button type="button" class="btn profile instagram"><i class="fa fa-instagram fa-2x" aria-hidden="true"></i></button>
   <button type="button" class="btn profile twitter"><i class="fa fa-twitter fa-2x" aria-hidden="true"></i></button>
   <button type="button" class="btn profile googleplus"><i class="fa fa-google-plus fa-2x" aria-hidden="true"></i></button>
+ </div>
+ </div>
+
+   <div class="content-wrapper">
   <div class="btn-group">
-    <div class="dropdown">
+
+  <div class="dropdown">
       <button type="button" class="btn dropdown-toggle option" data-toggle="dropdown">
         Post Type <span class="caret"></span>
       </button>
@@ -51,6 +63,7 @@
         <li><a class="dropdown-item" href="#">Year</a></li>
       </ul>
     </div>
+
     <div class="dropdown">
       <button type="button" class="btn dropdown-toggle option" data-toggle="dropdown"> 
         Time <span class="caret"></span></button>
@@ -61,6 +74,7 @@
           <li><a class="dropdown-item" href="#">Next Week</a></li>
         </ul>  
       </div> 
+
       <div class="dropdown">
         <button type="button" class="btn dropdown-toggle option" data-toggle="dropdown">
           Share to: <span class="caret"></span>
@@ -70,26 +84,30 @@
           <li><a class="dropdown-item" href="#">Friends</a></li>
           <li><a class="dropdown-item" href="#">Friends of friends</a></li>
         </ul>
-      </div>  
-    </div>
-    <div class="content-wrapper">
+      </div> 
+
+      </div>
+
+      <div class="content-wrapper">
       <form action="/action_page.php">
         <label for="caption">Caption</label>
         <input type="text" id="caption"  placeholder="Caption">
         <label for="hashtags">Hashtags</label>
         <input type="text" id="hashtags" placeholder="Hashtags here!">
-       <!--  <label for="country">Country</label> -->
-        <!-- <select id="country" name="country">
-          <option value="australia">Australia</option>
-          <option value="canada">Canada</option>
-          <option value="usa">USA</option>
-        </select> -->
-        <div>
-           <button type="button" class="btn btn-success">Submit </button>
-        </div>
+      <div>
+       <button type="button" class="btn btn-success">Submit </button>
+      </div>
       </form>
-    </div> 
-  </div>
+      </div> 
+ 
+ 
+ </div>
+
+
+<div class="contact">
+  <div class="content-wrapper">
+  <p>Thanks for visiting! Get in contact with us via Facebook at <a href="https://www.facebook.com"> Socially</a></p>
 </div>
+  </div>
 </body>
 </html>
