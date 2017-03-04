@@ -5,7 +5,7 @@
 .facebook{
 	background: #3B5998;
 	padding: 0px;
-	margin: 0px;
+	margin-right: 20px;
 	color: white;
 }
 
@@ -13,6 +13,7 @@
 	background: linear-gradient(-90deg,  #8a3ab9, #4c68d7, #cd486b, #fbad50, #fccc63,#bc2a8d,#e95950);
 	padding: 0px;
 	margin: 0px;
+	margin-right: 20px;
 	color: white;
 }
 
@@ -20,14 +21,18 @@
 	background: #4099FF;
 	color: white;
 	padding: 0px;
-	margin: 0px;
+	margin-right: 20px;
 }
 
 .googleplus{
 	background: #d34836;
 	color: white;
 	padding: 0px;
-	margin: 0px;
+	margin-right: 20px;
 }
 
+p {
+	margin: 0px 100px;
+
+}
 

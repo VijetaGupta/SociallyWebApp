@@ -9,9 +9,8 @@
 }
 
 p {
-	padding: 20px 25px;
 	line-height: 1.4;
-	font-family: 'Kadwa', serif;
+	font-family: 'Josefin Sans', sans-serif;
 }
 
 input[type=text], select {
