@@ -4,6 +4,10 @@
 	color: white;
 }
 
+#options {
+    display: inline-flex;
+}
+
 .content-body {
 	padding: 20px 25px;
 }
