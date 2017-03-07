@@ -2,7 +2,7 @@
   align-items: center;
   background-color: #262626;
   color: #FFFFFF;
-  min-height: 250px;
+  min-height: 150px;
   padding: 25px 30px 30px 25px;
   text-align: center;
   font-family: 'Josefin Sans', sans-serif;
@@ -15,6 +15,7 @@
 
 .header h2 {
   font-size:  1.3em;
+  font-family: 'Josefin Sans', sans-serif;
 }
 
 .header h3 {
@@ -45,4 +46,6 @@
   background-color: #262626;
   color: #FFFFFF;
   font-family: 'Josefin Sans', sans-serif;
+  border-radius: 0px;
+  margin-bottom: 0px;
 }
