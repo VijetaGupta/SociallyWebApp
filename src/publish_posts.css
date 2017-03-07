@@ -4,13 +4,18 @@
 	color: white;
 }
 
+#options {
+    display: inline-flex;
+}
+
 .content-body {
 	padding: 20px 25px;
 }
 
 p {
+	padding: 20px 25px;
 	line-height: 1.4;
-	font-family: 'Josefin Sans', sans-serif;
+	font-family: 'Kadwa', serif;
 }
 
 input[type=text], select {
