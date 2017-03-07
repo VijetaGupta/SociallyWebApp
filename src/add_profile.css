@@ -5,35 +5,35 @@
 .facebook{
 	background: #3B5998;
 	padding: 0px;
-	margin-right: 20px;
+	margin: 0px;
 	color: white;
 }
 
 .instagram{
 	padding: 0px;
 	margin: 0px;
-	margin-right: 20px;
 	color: white;
 }
 
-
+#instagram_button{
+	background: linear-gradient(90deg,  #8a3ab9, #4c68d7, #cd486b, #fbad50, #fccc63,#bc2a8d,#e95950);
+}
 
 .twitter{
 	background: #4099FF;
 	color: white;
 	padding: 0px;
-	margin-right: 20px;
+	margin: 0px;
 }
 
 .googleplus{
 	background: #d34836;
 	color: white;
 	padding: 0px;
-	margin-right: 20px;
+	margin: 0px;
 }
 
-p {
-	margin: 0px 100px;
-
+#options{
+	display: inline;
 }
 
