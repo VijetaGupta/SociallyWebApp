@@ -9,6 +9,10 @@
 	color: white;
 }
 
+.fa fa-check {
+	float:right;
+}
+
 .instagram{
 	padding: 0px;
 	margin: 0px;
@@ -16,6 +20,10 @@
 }
 
 #instagram_button{
+	background: linear-gradient(90deg,  #8a3ab9, #4c68d7, #cd486b, #fbad50, #fccc63,#bc2a8d,#e95950);
+}
+
+#added_instagram_button{
 	background: linear-gradient(90deg,  #8a3ab9, #4c68d7, #cd486b, #fbad50, #fccc63,#bc2a8d,#e95950);
 }
 

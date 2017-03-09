@@ -12,7 +12,6 @@
   <link rel="stylesheet" href="login_modal.css">
   <link href="bootstrap.min.css" rel="stylesheet">
   <link href="mdb.min.css" rel="stylesheet">
-  <link href="style.css" rel="stylesheet">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <link rel="stylesheet" href="header.css">
   <link rel="stylesheet" href="https://www.w3schools.com/lib/w3.css">
@@ -71,7 +70,7 @@
 				<form>
 					<input type="text" name="user" placeholder="Username">
 					<input type="password" name="pass" placeholder="Password">
-					<input type="submit" name="login" class="login loginmodal-submit" value="Login">
+					<button type="button" class="btn btn-success"  id="facebook_submit"> Login </button>
 				</form>
 				<div class="login-help">
 					<a href="#">Register</a> - <a href="#">Forgot Password</a>
@@ -86,7 +85,7 @@
 				<form>
 					<input type="text" name="user" placeholder="Username">
 					<input type="password" name="pass" placeholder="Password">
-					<input type="submit" name="login" class="login loginmodal-submit" value="Login">
+					<button type="button" class="btn btn-success"  id="instagram_submit"> Login </button>
 				</form>
 				<div class="login-help">
 					<a href="#">Register</a> - <a href="#">Forgot Password</a>
@@ -101,7 +100,7 @@
 				<form>
 					<input type="text" name="user" placeholder="Username">
 					<input type="password" name="pass" placeholder="Password">
-					<input type="submit" name="login" class="login loginmodal-submit" value="Login">
+					<button type="button" class="btn btn-success"  id="twitter_submit"> Login </button>
 				</form>
 				<div class="login-help">
 					<a href="#">Register</a> - <a href="#">Forgot Password</a>
@@ -116,7 +115,7 @@
 				<form>
 					<input type="text" name="user" placeholder="Username">
 					<input type="password" name="pass" placeholder="Password">
-					<input type="submit" name="login" class="login loginmodal-submit" value="Login">
+					<button type="button" class="btn btn-success"  id="googleplus_submit"> Login </button>
 				</form>
 				<div class="login-help">
 					<a href="#">Register</a> - <a href="#">Forgot Password</a>
@@ -126,24 +125,33 @@
 	</div>
 	<div class="content-wrapper">
 		<div>
-			<button type="button" class="btn profile facebook" data-toggle="modal" data-target="#myModal">
+			<button type="button" class="btn profile facebook" id="facebook_button" data-toggle="modal" data-target="#myModal">
 			<i class="fa fa-facebook-official fa-4x" aria-hidden="true"></i> </button>
+			<button type="button" class="btn profile facebook" id="added_facebook_button" data-toggle="modal" data-target="#myModal">
+			<i class="fa fa-facebook-official fa-4x" aria-hidden="true"></i> <i class="fa fa-check" aria-hidden="true"></i></button>
 			<button type="button" class="btn profile instagram" id="instagram_button" data-toggle="modal" data-target="#instagram">
 			<i class="fa fa-instagram fa-4x" aria-hidden="true"></i></button>
-			<button type="button" class="btn profile twitter" data-toggle="modal" data-target="#twitter">
+			<button type="button" class="btn profile instagram" id="added_instagram_button" data-toggle="modal" data-target="#instagram">
+			<i class="fa fa-instagram fa-4x" aria-hidden="true"></i><i class="fa fa-check" aria-hidden="true"></i></button>
+			<button type="button" class="btn profile twitter" id="twitter_button" data-toggle="modal" data-target="#twitter">
 			<i class="fa fa-twitter fa-4x" aria-hidden="true"></i></button>
-			<button type="button" class="btn profile googleplus" data-toggle="modal" data-target="#googleplus">
+			<button type="button" class="btn profile twitter" id="added_twitter_button" data-toggle="modal" data-target="#twitter">
+			<i class="fa fa-twitter fa-4x" aria-hidden="true"></i><i class="fa fa-check" aria-hidden="true"></i></button>
+			<button type="button" class="btn profile googleplus" id="googleplus_button" data-toggle="modal" data-target="#googleplus">
 			<i class="fa fa-google-plus fa-4x" aria-hidden="true"></i></button>	
+			<button type="button" class="btn profile googleplus" id="added_googleplus_button" data-toggle="modal" data-target="#googleplus">
+			<i class="fa fa-google-plus fa-4x" aria-hidden="true"></i><i class="fa fa-check" aria-hidden="true"></i></button>	
 		</div>	
 	</div>
-	<div class="contact">
-	    <div class="content-wrapper">
-	      <p>Thanks for visiting! Get in contact with us via Facebook at <a href="https://www.facebook.com"> Socially</a></p>
-	    </div>
-  	</div>
+ <div class="contact">
+    <div class="content-wrapper">
+      <p>Thanks for visiting! Get in contact with us via Facebook at <a href="https://www.facebook.com"> Socially </a></p>
+    </div>
+  </div>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   <script type="text/javascript" src="mdb.min.js"></script>
   <script type="text/javascript" src="js/mdb.min.js"></script>
+  <script src="add_profile.js"></script>
 </body>
 </html>
