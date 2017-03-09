@@ -8,3 +8,62 @@
     display: inline-flex;
     margin-top: 6px;
 }
+
+.profile{
+	margin: 0px 5px;
+	width: 10%;
+}
+.facebook{
+	background: #3B5998;
+	padding: 0px;
+	margin: 0px;
+	color: white;
+	height: 34px;
+	margin-top: 6px;
+}
+
+.fa fa-check {
+	float:right;
+}
+
+.instagram{
+	padding: 0px;
+	margin: 0px;
+	color: white;
+	height: 34px;
+	margin-top: 6px;
+}
+
+#instagram_button{
+	background: linear-gradient(90deg,  #8a3ab9, #4c68d7, #cd486b, #fbad50, #fccc63,#bc2a8d,#e95950);
+}
+
+
+.twitter{
+	background: #4099FF;
+	color: white;
+	padding: 0px;
+	margin: 0px;
+	height: 34px;
+	margin-top: 6px;
+}
+
+.googleplus{
+	background: #d34836;
+	color: white;
+	padding: 0px;
+	margin: 0px;
+	height: 34px;
+	margin-top: 6px;
+}
+
+.content-wrapper {
+  line-height: 1.4;
+  padding-top: 15px;
+  margin: 0px 120px;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 1.2em;
+}
+
+
+

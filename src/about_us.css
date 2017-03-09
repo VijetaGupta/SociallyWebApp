@@ -1,5 +1,10 @@
 p {
 	padding: 10px 10px 30px 80px;
+	font-size: 1.4rem;
+	text-align: left;
+}
+.header h2 {
+
 }
 
 .header h3 {

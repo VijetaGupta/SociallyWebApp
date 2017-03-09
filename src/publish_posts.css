@@ -1,3 +1,7 @@
+.profile{
+    margin: 0px 5px;
+    width: 10%;
+}
 .option {
 	margin: 5px 5px 5px 5px;
 	background-color: teal;
@@ -46,3 +50,56 @@ input[type=submit]:hover {
 .profile:active {
   transform: translateY(4px);
 }
+
+
+.facebook{
+    background: #3B5998;
+    padding: 0px;
+    margin: 0px;
+    color: white;
+    height: 34px;
+}
+
+.fa fa-check {
+    float:right;
+}
+
+.instagram{
+    padding: 0px;
+    margin: 0px;
+    color: white;
+    height: 34px;
+}
+
+#instagram_button{
+    background: linear-gradient(90deg,  #8a3ab9, #4c68d7, #cd486b, #fbad50, #fccc63,#bc2a8d,#e95950);
+}
+
+
+.twitter{
+    background: #4099FF;
+    color: white;
+    padding: 0px;
+    margin: 0px;
+    height: 34px;
+}
+
+.googleplus{
+    background: #d34836;
+    color: white;
+    padding: 0px;
+    margin: 0px;
+    height: 34px;
+
+}
+
+.content-wrapper {
+  line-height: 1.4;
+  padding-top: 15px;
+  margin: 0px 120px;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 1.2em;
+}
+
+
+
