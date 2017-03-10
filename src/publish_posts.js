@@ -35,5 +35,8 @@ $(document).ready(function(){
 	$("#added_googleplus_button").click(function(){
 		$("#added_googleplus_button").hide();
 		$("#googleplus_button").show();
-	});		
+	});	
+	$("#submit_post").click(function(){
+    alert("Your post has been published!");
+});	
 });
