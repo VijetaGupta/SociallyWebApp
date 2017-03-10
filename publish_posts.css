@@ -1,0 +1,143 @@
+.profile{
+    margin: 0px 5px;
+    width: 10%;
+}
+.option {
+	margin: 5px 5px 5px 5px;
+	background-color: teal;
+	color: white;
+}
+
+#options {
+    display: inline-flex;
+}
+
+.content-body {
+	padding: 20px 25px;
+}
+
+p {
+	padding: 20px 25px;
+	line-height: 1.4;
+	font-family: 'Kadwa', serif;
+}
+
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+.profile:active {
+  transform: translateY(4px);
+}
+
+
+.facebook{
+    background: #3B5998;
+    padding: 0px;
+    margin: 0px;
+    color: white;
+    height: 34px;
+}
+
+.fa fa-check {
+    float:right;
+}
+
+.instagram{
+    padding: 0px;
+    margin: 0px;
+    color: white;
+    height: 34px;
+}
+
+#instagram_button{
+    background: linear-gradient(90deg,  #8a3ab9, #4c68d7, #cd486b, #fbad50, #fccc63,#bc2a8d,#e95950);
+}
+
+
+.twitter{
+    background: #4099FF;
+    color: white;
+    padding: 0px;
+    margin: 0px;
+    height: 34px;
+}
+
+.googleplus{
+    background: #d34836;
+    color: white;
+    padding: 0px;
+    margin: 0px;
+    height: 34px;
+
+}
+
+.content-wrapper {
+  line-height: 1.4;
+  padding-top: 15px;
+  margin: 0px 120px;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 1.2em;
+}
+
+.button-section{
+	display: inline;
+}
+.parent-container{
+	display:inline-block;
+	width: 100%;
+	float: right;
+}
+
+.btn-group{
+	float: right;
+}
+
+#postType, #dateTime, #shareTo{
+	position: relative;
+    #width: 17%;
+    margin-right: 10px;
+}
+
+
+#postTypeDiv{
+	width:25%;
+}
+
+input[type=date], input[type=time]{
+	width: 88%;
+}
+
+#dropdownPost{
+	position: absolute;
+    top: 33%;
+    min-width: 107px;
+    left: 0;
+}
+
+#shareToUL{
+	position: absolute;
+    top: 33%;
+    min-width: 107px;
+}
