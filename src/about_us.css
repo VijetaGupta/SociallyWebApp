@@ -17,8 +17,6 @@ p {
 	 display: inline-flex;
 }
 
-#about_us_footer{
-	position: relative;
-	width: 100%;
-	margin-left: 0px;
+#index_contact{
+	padding-top: 60px;
 }

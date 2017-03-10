@@ -23,7 +23,7 @@
 }
 
 #report {
-	 margin-top: 75px;
+	 margin-top: 90px;
 }
 
 .fa fa-check {
@@ -39,6 +39,10 @@
 }
 
 #instagram_button{
+	background: linear-gradient(90deg,  #8a3ab9, #4c68d7, #cd486b, #fbad50, #fccc63,#bc2a8d,#e95950);
+}
+
+#added_instagram_button{
 	background: linear-gradient(90deg,  #8a3ab9, #4c68d7, #cd486b, #fbad50, #fccc63,#bc2a8d,#e95950);
 }
 
@@ -69,5 +73,6 @@
   font-size: 1.2em;
 }
 
-
-
+.fa fa-check {
+	float:right;
+}

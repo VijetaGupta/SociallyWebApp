@@ -1,0 +1,39 @@
+$(document).ready(function(){
+	$("#added_facebook_button").hide();
+	$("#added_instagram_button").hide();
+	$("#added_twitter_button").hide();
+	$("#added_googleplus_button").hide();
+	var x = 0;
+	$("#facebook_button").click(function(){
+		$("#facebook_button").hide();
+		$("#added_facebook_button").show();
+	});
+	$("#added_facebook_button").click(function(){
+		$("#added_facebook_button").hide();
+		$("#facebook_button").show();
+	});
+	$("#instagram_button").click(function(){
+		$("#instagram_button").hide();
+		$("#added_instagram_button").show();
+	});
+	$("#added_instagram_button").click(function(){
+		$("#added_instagram_button").hide();
+		$("#instagram_button").show();
+	});
+	$("#twitter_button").click(function(){
+		$("#twitter_button").hide();
+		$("#added_twitter_button").show();
+	});
+	$("#added_twitter_button").click(function(){
+		$("#added_twitter_button").hide();
+		$("#twitter_button").show();
+	});
+	$("#googleplus_button").click(function(){
+		$("#googleplus_button").hide();
+		$("#added_googleplus_button").show();
+	});
+	$("#added_googleplus_button").click(function(){
+		$("#added_googleplus_button").hide();
+		$("#googleplus_button").show();
+	});		
+});

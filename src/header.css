@@ -49,3 +49,19 @@
   border-radius: 0px;
   margin-bottom: 0px;
 }
+
+#about_us_footer{
+  position: relative;
+  width: 100%;
+  margin-left: 0px;
+}
+
+#index_footer{
+  position: relative;
+  width: 100%;
+  margin-left: 0px;
+}
+
+#index{
+  margin-bottom: 140px;
+}
