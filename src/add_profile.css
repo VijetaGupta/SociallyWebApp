@@ -7,6 +7,12 @@
 	padding: 0px;
 	margin: 0px;
 	color: white;
+	width: 300px;
+	height: 50px;
+}
+
+.fa fa-check {
+	float:right;
 }
 
 #instagram{
@@ -17,6 +23,16 @@
 	padding: 0px;
 	margin: 0px;
 	color: white;
+	width: 300px;
+	height: 50px;
+}
+
+#instagram_button{
+	background: linear-gradient(90deg,  #8a3ab9, #4c68d7, #cd486b, #fbad50, #fccc63,#bc2a8d,#e95950);
+}
+
+#added_instagram_button{
+	background: linear-gradient(90deg,  #8a3ab9, #4c68d7, #cd486b, #fbad50, #fccc63,#bc2a8d,#e95950);
 }
 
 .twitter{
@@ -24,6 +40,8 @@
 	color: white;
 	padding: 0px;
 	margin: 0px;
+	width: 300px;
+	height: 50px;
 }
 
 .googleplus{
@@ -31,6 +49,17 @@
 	color: white;
 	padding: 0px;
 	margin: 0px;
+	width: 300px;
+	height: 50px;
 }
+
+.content-wrapper {
+  line-height: 1.4;
+  padding-top: 15px;
+  margin: 0px 120px;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 1.2em;
+}
+
 
 

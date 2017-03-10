@@ -1,38 +1,71 @@
 <!DOCTYPE html>
-<html >
-<head>
-  <meta charset="UTF-8">
+<html lang="en">
+<head>  
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
   <title>Socially</title>
-  <link rel="stylesheet" href="header.css">
-  <link rel="stylesheet" href="view_reports.css">
-  <link href="https://fonts.googleapis.com/css?family=Kadwa" rel="stylesheet">
-  <link rel="stylesheet" href="https://www.w3schools.com/lib/w3.css">
+  <script src="https://use.fontawesome.com/955d121151.js"></script>
+  <link href="css/mdb.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">
+  <link href="bootstrap.min.css" rel="stylesheet">
+  <link href="mdb.min.css" rel="stylesheet">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-  <meta charset="UTF-8">
+  <link rel="stylesheet" href="header.css">
+  <link rel="stylesheet" href="https://www.w3schools.com/lib/w3.css">
+  <link rel="stylesheet" href="view_reports.css">
 </head>
 <body>
+  <nav class="navbar navbar-toggleable-md navbar elegant-color-dark bg-primary">
+    <div class="container">
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNav1" aria-controls="navbarNav1" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <a class="navbar-brand" id="socially" href="socially.html">
+        <strong>Socially</strong>
+      </a>
+      <div class="collapse navbar-collapse" id="navbarNav1">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="socially.html">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about_us.html">About Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="add_profile.html">Add Profile</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="View_Reports.html">View Reports</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="publish_posts.html">Publish Posts</a>
+          </li>
+          <li class="nav-item dropdown btn-group">
+            <a class="nav-link dropdown-toggle" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropdown</a>
+            <div class="dropdown-menu dropdown" aria-labelledby="dropdownMenu1">
+              <a class="dropdown-item">Action</a>
+              <a class="dropdown-item">Another action</a>
+              <a class="dropdown-item">Something else here</a>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
   <div class="header">
     <div class="content-wrapper">
-      <h1> Socially </h1>
-      <h2> Analyze The Performance Of Your Brand On Social Media </h2>
-      <h3>
-        <button class="w3-button w3-teal w3-medium" onclick="window.location.href='socially.html'">Home</button>   
-        <button class="w3-button w3-teal w3-medium" onclick="window.location.href='about_us.html'">About Us</button>     
-        <button class="w3-button w3-teal w3-medium" onclick="window.location.href='add_profile.html'">Add Profile</button>
-        <button class="w3-button w3-teal w3-medium" onclick="window.location.href='View_Reports.html'">View Reports</button>
-        <button class="w3-button w3-teal w3-medium" onclick="window.location.href='publish_posts.html'">Publish Posts</button>
-        <button class="w3-button w3-teal w3-medium">View Feeds</button>
-      </h3>
+      <h2>View daily, weekly, or monthly reports to track progress.</h2>
     </div>
   </div>
   <div class="content-wrapper">
-    <h3>View Your Reports</h3>
-    <p>View daily, weekly, or monthly reports to track progress.</p> 
-    <div class="btn-group">
+  <button type="button" class="btn profile facebook"><i class="fa fa-facebook-official fa-4x" ></i> </button>
+  <button type="button" class="btn profile instagram" id="instagram_button"><i class="fa fa-instagram fa-4x"></i></button>
+  <button type="button" class="btn profile twitter"><i class="fa fa-twitter fa-4x"></i></button>
+  <button type="button" class="btn profile googleplus"><i class="fa fa-google-plus fa-4x"></i></button> 
+    <div class="btn-group" id="options1">
       <div class="dropdown">
-        <button type="button" class="btn dropdown-toggle option" data-toggle="dropdown">
-          Post Type <span class="caret"></span>
-        </button>
+        <button type="button" class="btn dropdown-toggle option" data-toggle="dropdown">Post Type</button>
         <ul class="dropdown-menu">
           <li><a class="dropdown-item" href="#">Status</a></li>
           <li><a class="dropdown-item" href="#">Video</a></li>
@@ -41,36 +74,34 @@
         </ul>
       </div>
       <div class="dropdown">
-        <button type="button" class="btn dropdown-toggle option" data-toggle="dropdown"> 
-          Time Frame <span class="caret"></span></button>
-        <ul class="dropdown-menu">
-          <li><a class="dropdown-item" href="#">Day</a></li>
-          <li><a class="dropdown-item" href="#">Week</a></li>
-          <li><a class="dropdown-item" href="#">Month</a></li>
-          <li><a class="dropdown-item" href="#">Year</a></li>
-        </ul>  
-      </div> 
-      <div class="dropdown">
-        <button type="button" class="btn dropdown-toggle option" data-toggle="dropdown">
-          Metric <span class="caret"></span>
-        </button>
-        <ul class="dropdown-menu">
-          <li><a class="dropdown-item" href="#">Likes</a></li>
-          <li><a class="dropdown-item" href="#">Comments</a></li>
-          <li><a class="dropdown-item" href="#">Month</a></li>
-          <li><a class="dropdown-item" href="#">Year</a></li>
-        </ul>
-      </div>  
-    </div>     
-    <h3>Reports</h3>
-    <img src="http://alignment.hep.brandeis.edu/Devices/Inclinometer/HTML/Stability_16.gif" alt="some_text" style="width:width;height:height;">
-    <div class="contact">
-      <div class="content-wrapper">
-        <p>Thanks for visiting! Get in contact with us via Facebook at <a href="https://www.facebook.com"> Socially </a></p>
-      </div>
+        <button type="button" class="btn dropdown-toggle option" data-toggle="dropdown">Time Frame</button>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Day</a></li>
+            <li><a class="dropdown-item" href="#">Week</a></li>
+            <li><a class="dropdown-item" href="https://www.wired.com/wp-content/uploads/2015/03/plants_sold.jpg">Month</a></li>
+            <li><a class="dropdown-item" href="#">Year</a></li>
+          </ul>  
+        </div> 
+        <div class="dropdown">
+          <button type="button" class="btn dropdown-toggle option" data-toggle="dropdown">Metric</button>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Likes</a></li>
+            <li><a class="dropdown-item" href="#">Comments</a></li>
+            <li><a class="dropdown-item" href="#">Month</a></li>
+            <li><a class="dropdown-item" href="#">Year</a></li>
+          </ul>
+        </div>  
+      </div>     
+      <h3 id="report">Reports</h3>
+    </div>
+  <div class="contact">
+    <div class="content-wrapper">
+      <p>Thanks for visiting! Get in contact with us via Facebook at <a href="https://www.facebook.com"> Socially </a></p>
     </div>
   </div>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="mdb.min.js"></script>
+  <script type="text/javascript" src="js/mdb.min.js"></script>
 </body>
 </html>
